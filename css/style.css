@@ -1,11 +1,49 @@
 /*-----------------------------------GENERAL------------------------------------------*/
-body {
-  background-color: black;
+:root {
+  --prin-color: #058e3f;
+  --prin-color-light: #069e2d;
+  --prin-color-dark: #04773b;
+  --secondary-color: #f8ffe5;
 }
-main {
-  background: red;
+body {
+  background-color: var(--secondary-color);
 }
 /*-----------------------------------HEADER------------------------------------------*/
-
+/*-----------------img Container-------------*/
+.h-img-container {
+  position: relative;
+}
+.h-img-container picture img {
+  width: 100%;
+}
+.h-img-container h1 {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--prin-color-light);
+  text-shadow: 1px 1px 2px var(--secondary-color);
+}
+/*-----------------sign Container-------------*/
+.h-sign-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+.h-sign-container #signin,
+.h-sign-container #signup {
+  padding: 0.5rem 1rem;
+  background-color: var(--prin-color-light);
+}
+.h-sign-container #signin {
+  border-bottom-right-radius: 15px;
+}
+.h-sign-container #signup {
+  border-right: 1px solid var(--secondary-color);
+  border-bottom-left-radius: 15px;
+}
 /*-----------------------------------MAIN------------------------------------------*/
 /*-----------------------------------FOOTER------------------------------------------*/

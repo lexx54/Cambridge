@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cambridge Language Institute</title>
   <link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/style720.css">
   <link rel="stylesheet" href="css/style1020.css">
 
@@ -19,6 +19,7 @@
       <source srcset="images/headerLG.jpg" media="(min-width:720px)">
       <img src="images/headerSM.jpg" alt="">
     </picture>
+    <h1>Cambridge</h1>
   </div>
   <div class="h-sign-container">
     <p id="signup">Sign Up</p>
