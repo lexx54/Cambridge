@@ -14,7 +14,10 @@
 
   <header>
   <div class="h-img-container">
-    <img src="" alt="">
+    <picture>
+      <source srcset="images/headerLG.jpg" media="(min-width:720px)">
+      <img src="images/headerSM.jpg" alt="">
+    </picture>
   </div>
   <div class="h-sign-container">
     <p id="signup">Sign Up</p>
