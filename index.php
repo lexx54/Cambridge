@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/style720.css">
   <link rel="stylesheet" href="css/style1020.css">
-
 </head>
 <body>
   <nav></nav>
@@ -86,7 +85,50 @@
       </div>
     </section>
   <!-- *******************Teachers Section********************* -->
-    <section class="m-teachers-container"></section>
+    <section class="m-teachers-container">
+      <div class="teachers-carrousel">
+        <div class="teachers-card">
+          <div class="teachers-card-img">
+            <div class="img-suplement"></div>
+          </div>
+          <div class="teachers-card-desc">
+            <h3>teacher's name</h3>
+            <p>teacher experience</p>
+            <p class="teacher-stars">star</p>
+          </div>
+        </div>
+        <div class="teachers-card">
+          <div class="teachers-card-img">
+            <div class="img-suplement"></div>
+          </div>
+          <div class="teachers-card-desc">
+            <h3>teacher's name</h3>
+            <p>teacher experience</p>
+            <p class="teacher-stars">star</p>
+          </div>
+        </div>
+        <div class="teachers-card">
+          <div class="teachers-card-img">
+            <div class="img-suplement"></div>
+          </div>
+          <div class="teachers-card-desc">
+            <h3>teacher's name</h3>
+            <p>teacher experience</p>
+            <p class="teacher-stars">star</p>
+          </div>
+        </div>
+        <div class="teachers-card">
+          <div class="teachers-card-img">
+            <div class="img-suplement"></div>
+          </div>
+          <div class="teachers-card-desc">
+            <h3>teacher's name</h3>
+            <p>teacher experience</p>
+            <p class="teacher-stars">star</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
   <!-- *******************Comments Section********************* -->
     <section class="m-comments-container"></section>

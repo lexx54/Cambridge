@@ -72,7 +72,7 @@ body {
   color: var(--prin-color-dark);
 }
 .lvl-container {
-  background-color: var(--prin-color-light);
+  background-color: red;
   color: var(--secondary-color);
   margin: 0.5rem;
   border-radius: 10px;
@@ -138,5 +138,13 @@ body {
 }
 .lvl-sub-lvls span {
   display: block;
+}
+/*-----------------teachers Container-------------*/
+.m-teachers-container {
+  background-color: blue;
+}
+.teacher-carrousel {
+  background: red;
+  display: flex;
 }
 /*-----------------------------------FOOTER------------------------------------------*/ ;
