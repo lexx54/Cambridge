@@ -46,12 +46,94 @@ body {
   border-bottom-left-radius: 15px;
 }
 /*-----------------------------------MAIN------------------------------------------*/
-section {
-  min-height: 50vh;
+.m-institute-container,
+.m-levels-container,
+.m-teachers-container,
+.m-comments-container {
+  min-height: 30vh;
   padding: 0rem 1rem;
+  margin-top: 1rem;
 }
 /*-----------------Institute Container-------------*/
-.m-institute-container {
-  margin-top: 1rem;
+.m-institute-container h1 {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: var(--prin-color-dark);
+}
+.m-institute-container p {
+  line-height: 1.5rem;
+}
+/*-----------------levels Container-------------*/
+.m-levels-container h2 {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: var(--prin-color-dark);
+}
+.lvl-container {
+  background-color: var(--prin-color-light);
+  color: var(--secondary-color);
+  margin: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px var(--prin-color-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 30vh;
+}
+.lvl-img {
+  background-size: cover;
+  height: 120px;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.lvl-container:first-child .lvl-img {
+  background: url(../images/gogo.jpg);
+  background-size: cover;
+}
+.lvl-container:nth-child(2) .lvl-img {
+  background: url(../images/basic.jpg);
+  background-size: cover;
+  background-position: 0 25%;
+}
+.lvl-container:last-child .lvl-img {
+  background: url(../images/advanced.jpg);
+  background-size: cover;
+  background-position: 0 60%;
+}
+.lvl-container article {
+  display: flex;
+  flex-direction: column;
+}
+.lvl-container article h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  font-weight: bold;
+}
+
+.lvl-container article div {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lvl-description {
+  flex: 0 0 45%;
+}
+.lvl-sub {
+  flex: 0 0 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.lvl-sub-lvls {
+  margin-bottom: 0.5rem;
+}
+.lvl-sub-lvls span {
+  display: block;
 }
 /*-----------------------------------FOOTER------------------------------------------*/ ;

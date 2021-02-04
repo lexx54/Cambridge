@@ -39,24 +39,25 @@
       <h2>Levels</h2>
       <div id="levels">
         <section class="lvl-container">
-          <div class="lvl-img"><img src="" alt=""></div>
+          <div class="lvl-img"></div>
+
           <article>
           <h1>GoGo</h1>
           <div>
-          <p class="lvl-description">Designed for kids</p>
+          <p class="lvl-description">Designed for kids to keep them motivated and focus in their path to become bilinguals</p>
             <ul class="lvl-sub">
-              <li class="lvl-sub-lvls">Gogo 1</li>
-              <li class="lvl-sub-lvls">Gogo 2</li>
-              <li class="lvl-sub-lvls">Gogo 3</li>
-              <li class="lvl-sub-lvls">Gogo 4</li>
-              <li class="lvl-sub-lvls">Gogo 5</li>
-              <li class="lvl-sub-lvls">Gogo 6</li>
+              <li class="lvl-sub-lvls">Gogo 1 <span>(16 lecciones)</span></li>
+              <li class="lvl-sub-lvls">Gogo 2 <span>(16 lecciones)</span></li>
+              <li class="lvl-sub-lvls">Gogo 3 <span>(16 lecciones)</span></li>
+              <li class="lvl-sub-lvls">Gogo 4 <span>(16 lecciones)</span></li>
+              <li class="lvl-sub-lvls">Gogo 5 <span>(16 lecciones)</span></li>
+              <li class="lvl-sub-lvls">Gogo 6 <span>(16 lecciones)</span></li>
             </ul>
           </div>
           </article>
         </section>
         <section class="lvl-container">
-          <div class="lvl-img"><img src="" alt=""></div>
+          <div class="lvl-img"></div>
           <article>
             <h1>Basic</h1>
             <div>
@@ -70,11 +71,11 @@
           </article>
         </section>
         <section class="lvl-container">
-          <div class="lvl-img"><img src="" alt=""></div>
+          <div class="lvl-img"></div>
           <article>
             <h1>Advance</h1>
             <div>
-            <p class="lvl-description">Design for Young And adults to push your English level</p>
+            <p class="lvl-description">Design for Young and adults to push their English level</p>
             <ul class="lvl-sub">
               <li class="lvl-sub-lvls">Advance I <span>(20 lecciones)</span></li>
               <li class="lvl-sub-lvls">Advance II <span>(20 lecciones)</span></li>
