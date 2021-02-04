@@ -72,7 +72,7 @@ body {
   color: var(--prin-color-dark);
 }
 .lvl-container {
-  background-color: red;
+  background-color: blue;
   color: var(--secondary-color);
   margin: 0.5rem;
   border-radius: 10px;
