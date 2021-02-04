@@ -107,6 +107,7 @@ body {
 .lvl-container article {
   display: flex;
   flex-direction: column;
+  padding-bottom: 0.5em;
 }
 .lvl-container article h1 {
   text-align: center;
@@ -120,7 +121,10 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
+.lvl-container:first-child article div .lvl-sub {
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
 .lvl-description {
   flex: 0 0 45%;
 }
@@ -129,7 +133,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .lvl-sub-lvls {
   margin-bottom: 0.5rem;
 }

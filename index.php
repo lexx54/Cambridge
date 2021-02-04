@@ -73,7 +73,7 @@
         <section class="lvl-container">
           <div class="lvl-img"></div>
           <article>
-            <h1>Advance</h1>
+            <h1>Advanced</h1>
             <div>
             <p class="lvl-description">Design for Young and adults to push their English level</p>
             <ul class="lvl-sub">
