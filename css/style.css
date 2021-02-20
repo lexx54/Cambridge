@@ -45,6 +45,12 @@ body {
   border-right: 1px solid var(--secondary-color);
   border-bottom-left-radius: 15px;
 }
+#signin:hover,
+#signup:hover {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  cursor: pointer;
+}
 /*-----------------------------------MAIN------------------------------------------*/
 .m-institute-container,
 .m-levels-container,
@@ -72,7 +78,7 @@ body {
   color: var(--prin-color-dark);
 }
 .lvl-container {
-  background-color: blue;
+  background-color: var(--prin-color-light);
   color: var(--secondary-color);
   margin: 0.5rem;
   border-radius: 10px;
@@ -141,10 +147,10 @@ body {
 }
 /*-----------------teachers Container-------------*/
 .m-teachers-container {
-  background-color: blue;
+  border: 1px solid blue;
 }
-.teacher-carrousel {
-  background: red;
-  display: flex;
+.teachers-carrousel {
+  display: grid;
+  grid-template-columns: repeat(autofit);
 }
 /*-----------------------------------FOOTER------------------------------------------*/ ;

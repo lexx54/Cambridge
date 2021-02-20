@@ -21,8 +21,8 @@
     <h1>Cambridge</h1>
   </div>
   <div class="h-sign-container">
-    <p id="signup">Sign Up</p>
-    <p id="signin">Sign In</p>
+    <a href="signup.php?sign=up" id="signup">Sign Up</a>
+    <a href="signup.php?sign=in" id="signin">Sign In</a>
   </div>
   </header>
 
@@ -45,12 +45,12 @@
           <div>
           <p class="lvl-description">Designed for kids to keep them motivated and focus in their path to become bilinguals</p>
             <ul class="lvl-sub">
-              <li class="lvl-sub-lvls">Gogo 1 <span>(16 lecciones)</span></li>
-              <li class="lvl-sub-lvls">Gogo 2 <span>(16 lecciones)</span></li>
-              <li class="lvl-sub-lvls">Gogo 3 <span>(16 lecciones)</span></li>
-              <li class="lvl-sub-lvls">Gogo 4 <span>(16 lecciones)</span></li>
-              <li class="lvl-sub-lvls">Gogo 5 <span>(16 lecciones)</span></li>
-              <li class="lvl-sub-lvls">Gogo 6 <span>(16 lecciones)</span></li>
+              <li class="lvl-sub-lvls">Gogo 1 <span>(16 lessons)</span></li>
+              <li class="lvl-sub-lvls">Gogo 2 <span>(16 lessons)</span></li>
+              <li class="lvl-sub-lvls">Gogo 3 <span>(16 lessons)</span></li>
+              <li class="lvl-sub-lvls">Gogo 4 <span>(16 lessons)</span></li>
+              <li class="lvl-sub-lvls">Gogo 5 <span>(16 lessons)</span></li>
+              <li class="lvl-sub-lvls">Gogo 6 <span>(16 lessons)</span></li>
             </ul>
           </div>
           </article>
@@ -62,9 +62,9 @@
             <div>
             <p class="lvl-description">Design for Young And adults to start learning</p>
             <ul class="lvl-sub">
-              <li class="lvl-sub-lvls">Introductory <span>(16 lecciones)</span></li>
-              <li class="lvl-sub-lvls">Basic <span>(15 lecciones)</span></li>
-              <li class="lvl-sub-lvls">Intermediate <span>(10 lecciones)</span></li>
+              <li class="lvl-sub-lvls">Introductory <span>(16 Lessons)</span></li>
+              <li class="lvl-sub-lvls">Basic <span>(15 Lessons)</span></li>
+              <li class="lvl-sub-lvls">Intermediate <span>(10 Lessons)</span></li>
             </ul>
             </div>
           </article>
@@ -76,8 +76,8 @@
             <div>
             <p class="lvl-description">Design for Young and adults to push their English level</p>
             <ul class="lvl-sub">
-              <li class="lvl-sub-lvls">Advance I <span>(20 lecciones)</span></li>
-              <li class="lvl-sub-lvls">Advance II <span>(20 lecciones)</span></li>
+              <li class="lvl-sub-lvls">Advance I <span>(20 Lessons)</span></li>
+              <li class="lvl-sub-lvls">Advance II <span>(20 Lessons)</span></li>
             </ul>
             </div>
           </article>
@@ -88,15 +88,16 @@
     <section class="m-teachers-container">
       <div class="teachers-carrousel">
         <div class="teachers-card">
-          <div class="teachers-card-img">
-            <div class="img-suplement"></div>
-          </div>
+          <figure class="teachers-card-img">
+            <img class="img-suplement"></img>
+          </figure>
           <div class="teachers-card-desc">
             <h3>teacher's name</h3>
             <p>teacher experience</p>
-            <p class="teacher-stars">star</p>
+            <p class="teacher-stars">star 1</p>
           </div>
         </div>
+
         <div class="teachers-card">
           <div class="teachers-card-img">
             <div class="img-suplement"></div>
@@ -107,6 +108,7 @@
             <p class="teacher-stars">star</p>
           </div>
         </div>
+
         <div class="teachers-card">
           <div class="teachers-card-img">
             <div class="img-suplement"></div>
@@ -117,6 +119,7 @@
             <p class="teacher-stars">star</p>
           </div>
         </div>
+
         <div class="teachers-card">
           <div class="teachers-card-img">
             <div class="img-suplement"></div>
