@@ -1,0 +1,51 @@
+@media screen and (min-width: 1020px) {
+  :root {
+    --prin-color: #058e3f;
+    --prin-color-light: #069e2d;
+    --prin-color-dark: #04773b;
+    --secondary-color: #f8ffe5;
+  }
+  /*-----------------Levels Container-------------*/
+  .lvl-container {
+    flex-direction: row;
+    font-size: 1.5rem;
+  }
+
+  .lvl-container article div .lvl-sub {
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .lvl-img {
+    width: 50%;
+    height: auto;
+  }
+  .lvl-container article {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .lvl-description {
+    padding: 1rem 0;
+    text-align: center;
+  }
+  .lvl-container article div {
+    flex-direction: column;
+  }
+  .lvl-sub-lvls {
+    flex: 0 0 30%;
+  }
+  .lvl-sub-lvls span {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  /*-----------------Teacher Container-------------*/
+  .teachers-carrousel {
+    justify-content: space-around;
+  }
+  .teachers-card {
+    flex: 0 0 20%;
+  }
+  .img-suplement {
+    height: 75%;
+  }
+}

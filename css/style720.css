@@ -1,5 +1,14 @@
 @media screen and (min-width: 720px) {
-  body {
-    background: red;
+  :root {
+    --prin-color: #058e3f;
+    --prin-color-light: #069e2d;
+    --prin-color-dark: #04773b;
+    --secondary-color: #f8ffe5;
+  }
+  .teachers-carrousel {
+    justify-content: space-around;
+  }
+  .teachers-card {
+    flex: 0 0 30%;
   }
 }

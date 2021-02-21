@@ -141,6 +141,11 @@ body {
 }
 .lvl-sub-lvls {
   margin-bottom: 0.5rem;
+  /*temporal*/
+  border-top: 2px solid var(--prin-color-dark);
+  border-left: 2px solid var(--prin-color-dark);
+  border-radius: 10px;
+  padding: 0.5rem;
 }
 .lvl-sub-lvls span {
   display: block;
@@ -192,8 +197,7 @@ body {
   text-align: center;
   padding: 1rem 0;
 }
-.m-comments-container > form > input {
-}
+
 .form-name,
 .form-comment,
 .form-input {
