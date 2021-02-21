@@ -1,8 +1,12 @@
 <?php
 if ($_GET['sign'] === "up") {
-    echo "you are trying to sign up";
+    ob_start();
+
+    include_once __DIR__ . "./templates/signup.html.php";
+
+    $content = ob_get_clean();
 
 } else {
-    echo "you are trying to sign in";
+    $content = "you are trying to sign in";
 }
 include_once __DIR__ . "./templates/layout.html.php";

@@ -86,50 +86,52 @@
     </section>
   <!-- *******************Teachers Section********************* -->
     <section class="m-teachers-container">
+      <h2>Teachers</h2>
+
       <div class="teachers-carrousel">
-        <div class="teachers-card">
-          <figure class="teachers-card-img">
-            <img class="img-suplement"></img>
-          </figure>
-          <div class="teachers-card-desc">
-            <h3>teacher's name</h3>
-            <p>teacher experience</p>
-            <p class="teacher-stars">star 1</p>
-          </div>
-        </div>
-
-        <div class="teachers-card">
+        <article class="teachers-card">
           <div class="teachers-card-img">
-            <div class="img-suplement"></div>
+            <img class="img-suplement" src="https://placeimg.com/200/200/people/3"></img>
           </div>
-          <div class="teachers-card-desc">
-            <h3>teacher's name</h3>
-            <p>teacher experience</p>
-            <p class="teacher-stars">star</p>
-          </div>
-        </div>
+          <section class="teachers-card-desc">
+            <h3>Lexington Chaparro</h3>
+            <p>2 Years of experience</p>
+            <p class="teacher-stars"> ⭐ ⭐ ⭐ ⭐</p>
+          </section>
+        </article>
 
-        <div class="teachers-card">
+        <article class="teachers-card">
           <div class="teachers-card-img">
-            <div class="img-suplement"></div>
+            <img class="img-suplement" src="https://placeimg.com/200/200/people/2"></img>
           </div>
-          <div class="teachers-card-desc">
-            <h3>teacher's name</h3>
-            <p>teacher experience</p>
-            <p class="teacher-stars">star</p>
-          </div>
-        </div>
+          <section class="teachers-card-desc">
+            <h3>Maria Farfan</h3>
+            <p>1 Year Experience</p>
+            <p class="teacher-stars"> ⭐ ⭐ ⭐</p>
+          </section>
+        </article>
 
-        <div class="teachers-card">
+        <article class="teachers-card">
           <div class="teachers-card-img">
-            <div class="img-suplement"></div>
+            <img class="img-suplement" src="https://placeimg.com/200/200/people/1"></img>
           </div>
-          <div class="teachers-card-desc">
-            <h3>teacher's name</h3>
-            <p>teacher experience</p>
-            <p class="teacher-stars">star</p>
+          <section class="teachers-card-desc">
+            <h3>Jose Farfan</h3>
+            <p>3 Years Experience</p>
+            <p class="teacher-stars"> ⭐</p>
+          </section>
+        </article>
+
+        <article class="teachers-card">
+          <div class="teachers-card-img">
+            <img class="img-suplement" src="https://placeimg.com/200/200/people/5"></img>
           </div>
-        </div>
+          <section class="teachers-card-desc">
+            <h3>Pepe Lopez</h3>
+            <p>1 Year of Experience</p>
+            <p class="teacher-stars"> ⭐ ⭐ ⭐</p>
+          </section>
+        </article>
       </div>
     </section>
 
