@@ -172,6 +172,11 @@ body {
 .teachers-card-desc > * {
   margin-top: 0.5rem;
 }
+.teachers-card-desc > h3 {
+  font-size: 1.5rem;
+  color: var(--prin-color-dark);
+  text-align: center;
+}
 
 .img-suplement {
   width: 100%;
