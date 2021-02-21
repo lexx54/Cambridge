@@ -106,7 +106,7 @@
           </div>
           <section class="teachers-card-desc">
             <h3>Maria Farfan</h3>
-            <p>1 Year Experience</p>
+            <p>1 Year of Experience</p>
             <p class="teacher-stars"> ⭐ ⭐ ⭐</p>
           </section>
         </article>
@@ -117,7 +117,7 @@
           </div>
           <section class="teachers-card-desc">
             <h3>Jose Farfan</h3>
-            <p>3 Years Experience</p>
+            <p>3 Years of Experience</p>
             <p class="teacher-stars"> ⭐</p>
           </section>
         </article>
@@ -136,7 +136,24 @@
     </section>
 
   <!-- *******************Comments Section********************* -->
-    <section class="m-comments-container"></section>
+    <section class="m-comments-container">
+      <h2>Leave us Your Comments, Opinions and Ideas</h2>
+      <form action="" method="post">
+        <div class="form-name">
+          <label for="fullname">Name</label>
+          <input type="text" name="fullname" placeholder=" Your name...">
+        </div>
+
+        <div class="form-comment">
+          <label for="comment">Comment</label>
+          <textarea name="comment" id="" cols="30" rows="10" placeholder=" Your Comment..."></textarea>
+        </div>
+        <div class="form-input">
+          <input type="submit" value="Send comment">
+        </div>
+
+      </form>
+    </section>
   </main>
 
   <?php require_once __DIR__ . "./templates/footer.html.php";?>

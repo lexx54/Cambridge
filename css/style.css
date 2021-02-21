@@ -182,4 +182,58 @@ body {
   width: 100%;
   border-radius: 50%;
 }
+/*-----------------Comments Container-------------*/
+.m-comments-container {
+  background: var(--prin-color);
+}
+.m-comments-container > h2 {
+  font-size: 2rem;
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 1rem 0;
+}
+.m-comments-container > form > input {
+}
+.form-name,
+.form-comment,
+.form-input {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+.form-name label,
+.form-comment label {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  flex: 0 0 30%;
+}
+.form-name input,
+.form-comment textarea {
+  flex: 1 0 50%;
+  border-radius: 10px;
+  border: none;
+}
+.form-name input:focus,
+.form-comment textarea:focus {
+  border: 5px inset var(--prin-color-light);
+
+  /* border-bottom: 2px inset var(--secondary-color); */
+}
+.form-input {
+  justify-content: flex-end;
+}
+.form-input input {
+  padding: 1rem 1.5rem;
+  background-color: var(--prin-color-light);
+  color: var(--secondary-color);
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+}
+.form-input input:hover,
+.form-input input:active {
+  border: 2px solid var(--secondary-color);
+}
+
 /*-----------------------------------FOOTER------------------------------------------*/ ;
