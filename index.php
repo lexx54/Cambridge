@@ -138,7 +138,7 @@
   <!-- *******************Comments Section********************* -->
     <section class="m-comments-container">
       <h2>Leave us Your Comments, Opinions and Ideas</h2>
-      <form action="" method="post">
+      <form action="comment.php" method="post">
         <div class="form-name">
           <label for="fullname">Name</label>
           <input type="text" name="fullname" placeholder=" Your name...">
@@ -153,6 +153,11 @@
         </div>
 
       </form>
+    </section>
+
+    <section class="m-display-container">
+    <?php include_once __DIR__ . "./comment.php";?>
+      <?php $displayComment;?>
     </section>
   </main>
 
