@@ -1,5 +1,4 @@
 <?php
-include_once __DIR__ . "./includes/sanitize.php";
 include_once __DIR__ . "./includes/dbfunctions.php";
 include_once __DIR__ . "./includes/dbconnection.php";
 if (isset($_POST['fullname'])) {
